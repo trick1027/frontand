@@ -8,7 +8,7 @@
           href="https://vuejs.org"
           target="_blank"
         >
-          eunhye
+          규일 테스트......
         </a>
       </li>
       <li>
@@ -16,7 +16,6 @@
           href="https://forum.vuejs.org"
           target="_blank"
         >
-          eunhye ~~~~수정
           
         </a>
       </li>
