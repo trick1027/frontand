@@ -8,7 +8,7 @@
           href="https://vuejs.org"
           target="_blank"
         >
-          eunhye
+          규일 충돌 test
         </a>
       </li>
       <li>
