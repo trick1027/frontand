@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>gyuil</h2>
+    <h2>master</h2>
     <ul>
       <li>
         <a
@@ -16,7 +16,8 @@
           href="https://forum.vuejs.org"
           target="_blank"
         >
-          Forum
+          eunhye ~~~~수정
+          
         </a>
       </li>
       <li>
