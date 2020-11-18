@@ -8,11 +8,7 @@
           href="https://vuejs.org"
           target="_blank"
         >
-<<<<<<< HEAD
-          규일 충돌 test
-=======
           규일 테스트......
->>>>>>> gyuil
         </a>
       </li>
       <li>
