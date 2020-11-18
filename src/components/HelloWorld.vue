@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h2>아~~~~!!!!!</h2>
+    <h2>master 수정함</h2>
     <ul>
       <li>
         <a
