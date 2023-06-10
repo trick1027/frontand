@@ -1,11 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-<<<<<<< HEAD
-    branch pub-master master
-=======
     branch 수정
->>>>>>> pub-master
     <router-view/>
   </div>
 </template>
