@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    master branch
+    pub-master branch
     <router-view/>
   </div>
 </template>
