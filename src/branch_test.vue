@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    branch 수정
+    master branch
     <router-view/>
   </div>
 </template>
