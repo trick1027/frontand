@@ -1,13 +1,31 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <ul>
+      <li v-for="item in items" >
+        <p>{{item.title}}</p>
+        <p>{{item.subinfo}}</p>
+        <p><img :src=item.conimg /></p>
+        <img src="./assets/logo.png">
+      </li>
+    </ul>
+    <!-- <router-view/> -->
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  data () {
+    return {
+      items:[
+        {
+          title:'셀프 도배시공과 싱크대 페인트리폼으로 변화 준 주방인테리어',
+          subinfo:'시크한까미',
+          conimg:'./assets/logo.png'
+        }
+      ]
+    }
+  }
 }
 </script>
 
