@@ -6,11 +6,24 @@
 </template>
 
 <script>
+import { Axios } from 'axios';
 export default {
   name: 'HelloWorld',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
+    }
+  },
+  methods: {
+    getData () {
+      return Axios
+        .get('./assets/data.json')
+        .then(res => {
+          console.log(res)
+        })
+        .catch(error => {
+          console.error(error)
+        })
     }
   }
 }
